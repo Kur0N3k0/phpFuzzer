@@ -1,0 +1,9 @@
+{
+  "name": "oi",
+  "list": [
+    "unserialize"
+  ],
+  "regex": [
+    "unserialize[\\s\"'(]+\\$[\\S]+(?=;)"
+  ]
+}

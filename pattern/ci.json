@@ -1,0 +1,27 @@
+{
+  "name": "ci",
+  "list": [
+    "shell_exec",
+    "system",
+    "exec",
+    "popen",
+    "passthru",
+    "proc_open",
+    "pcntl_exec",
+    "eval",
+    "assert",
+    "create_function"
+  ],
+  "regex": [
+    "shell_exec\\(\\$?.*?\\)",
+    "system\\(\\$?.*?\\)",
+    "exec\\(\\$?.*?\\)",
+    "popen\\(\\$?.*?\\)",
+    "passthru\\(\\$?.*?\\)",
+    "proc_open\\(\\$?.*?\\)",
+    "pcntl_exec\\(\\$?.*?\\)",
+    "eval\\(\\$?.*?\\)",
+    "assert\\(\\$?.*?\\)",
+    "create_function\\(\\$?.*?\\)"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ssrf",
+  "list": [
+    "curl_exec"
+  ],
+  "regex": [
+    "curl_exec[\\s\"'(]+\\$[\\S]+(?=;)"
+  ]
+}

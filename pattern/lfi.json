@@ -1,0 +1,19 @@
+{
+  "name": "lfi",
+  "list": [
+    "include",
+    "include_once",
+    "require",
+    "require_once",
+    "get_file_contents",
+    "highlight_file"
+  ],
+  "regex": [
+    "include[\\s\"'(]+\\$[\\S]+(?=;)",
+    "include_once[\\s\"'(]+\\$[\\S]+(?=;)",
+    "require[\\s\"'(]+\\$[\\S]+(?=;)",
+    "require_once[\\s\"'(]+\\$[\\S]+(?=;)",
+    "get_file_contents[\\s\"'(]+\\$[\\S]+(?=;)",
+    "highlight_file[\\s\"'(]+\\$[\\S]+(?=;)"
+  ]
+}

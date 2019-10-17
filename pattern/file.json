@@ -1,0 +1,9 @@
+{
+  "name": "file",
+  "list": [
+    "move_uploaded_file"
+  ],
+  "regex": [
+    "move_uploaded_file\\(\\$?.*?\\)"
+  ]
+}

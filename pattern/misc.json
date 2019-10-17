@@ -1,0 +1,22 @@
+{
+  "name": "misc",
+  "list": [
+    "header",
+    "extract",
+    "parse_url",
+    "unlink",
+    "glob"
+  ],
+  "regex": [
+    "header[\\s\"'(]+\\$[\\S]+(?=;)",
+    "extract[\\s\"'(]+\\$[\\S]+(?=;)",
+    "parse_url[\\s\"'(]+\\$[\\S]+(?=;)",
+    "unlink[\\s\"'(]+\\$[\\S]+(?=;)",
+    "glob[\\s\"'(]+\\$[\\S]+(?=;)"
+  ],
+  "experimental": [
+    {
+      "loose_compare": "[^=]+==(?!=\\s)[^=]*?\\n"
+    }
+  ]
+}

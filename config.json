@@ -1,0 +1,6 @@
+{
+  "pattern": "./pattern/*.json",
+  "testcase": "./testcase",
+  "extension": "*.php",
+  "result": "./result"
+}
